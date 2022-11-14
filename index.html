@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Christmas Calendar</title>
+  <meta name="twitter:image" property="twitter:image" content="https://csschristmascalendar.com/assets/og.jpg">
+  <meta name="twitter:description" property="twitter:description" content="This page demonstrates that almost any design concept is achievable with only HTML + CSS. No Javascript, no graphics.">
+  <meta name="twitter:title" property="twitter:title" content="CSS Christmas Calendar">
+  <meta name="twitter:creator" property="twitter:creator" content="@FullStackMaker">
+  <meta name="twitter:card" property="twitter:card" content="summary">
+  <meta name="og:image" property="og:image" content="https://csschristmascalendar.com/assets/og.jpg">
+  <meta name="og:description" property="og:description" content="This page demonstrates that almost any design concept is achievable with only HTML + CSS. No Javascript, no graphics.">
+  <meta name="og:title" property="og:title" content="CSS Christmas Calendar">
+  <meta name="og:type" property="og:type" content="website">
+  <meta name="og:url" property="og:url" content="https://csschristmascalendar.com">
+  <meta name="image" content="https://csschristmascalendar.com/assets/og.jpg">
+  <meta name="description" content="This page demonstrates that almost any design concept is achievable with only HTML + CSS. No Javascript, no graphics.">
+  <link rel="icon" type="image/png" href="./assets/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="./assets/favicon-16x16.png" sizes="16x16" />
+  <link rel="stylesheet" href="styles.css"> 
+  
+  <script type="text/javascript" src="js/checkday.js"></script>
+
+</head>
+<body>
+
+  <div class="calendar-grid">
+    <div class="title">
+      <!-- <h1><span class="title-1">Theragnostik</span><span class="title-2">Weihnachts-</span><span class="title-3">kalender</span></h1> -->
+	  <h1><span class="title-1">Theragnostik</span><span class="title-2">Weihnachtskalender</span></h1>
+    </div>
+    <div class="day day-1">
+      <label>
+        <input type="checkbox" id='t1' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">1</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t1a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="day01/index.html" target="_blank" title="read more">Super duper Event am USB</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-2">
+      <label>
+        <input type="checkbox" id='t2' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">2</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t2a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-3">
+      <label>
+        <input type="checkbox" id='t3' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">3</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t3a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-4">
+      <label>
+        <input type="checkbox" id='t4' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">4</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t4a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-5">
+      <label>
+        <input type="checkbox" id='t5' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">5</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t5a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-6">
+      <label>
+        <input type="checkbox" id='t6' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">6</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t6a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-7">
+      <label>
+        <input type="checkbox" id='t7' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">7</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t7a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Super duper Event am USB</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-8">
+      <label>
+        <input type="checkbox" id='t8' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">8</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t8a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-9">
+      <label>
+        <input type="checkbox" id='t9' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">9</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t9a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+
+	<div class="day day-10">
+      <label>
+        <input type="checkbox" id='t10' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">10</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t10a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-11">
+      <label>
+        <input type="checkbox" id='t11' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">11</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t11a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-12">
+      <label>
+        <input type="checkbox" id='t12' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">12</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t12a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+
+	<div class="day day-13">
+      <label>
+        <input type="checkbox" id='t13' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">13</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t13a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-14">
+      <label>
+        <input type="checkbox" id='t14' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">14</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t14a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-15">
+      <label>
+        <input type="checkbox" id='t15' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">15</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t15a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-16">
+      <label>
+        <input type="checkbox" id='t16' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">16</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t16a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-17">
+      <label>
+        <input type="checkbox" id='t17' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">17</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t17a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-18">
+      <label>
+        <input type="checkbox" id='t18' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">18</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t18a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+	
+	<div class="day day-19">
+      <label>
+        <input type="checkbox" id='t19' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">19</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t19a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+
+	<div class="day day-20">
+      <label>
+        <input type="checkbox" id='t20' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">20</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t20a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+
+	<div class="day day-21">
+      <label>
+        <input type="checkbox" id='t21' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">21</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t21a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+
+	<div class="day day-22">
+      <label>
+        <input type="checkbox" id='t22' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">22</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t22a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+
+	<div class="day day-23">
+      <label>
+        <input type="checkbox" id='t23' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">23</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t23a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+
+	<div class="day day-24">
+      <label>
+        <input type="checkbox" id='t24' onclick="checkday(this.id)"/>
+        <div class="door">
+          <div class="front">24</div>
+          <div class="back"></div>
+        </div>
+        <div class="inside" id='t24a'>	
+			<img class='img' src="img/test2.jpg" />
+        </div>
+        <div class="title-container"><a href="https://codepen.io/johnnyfekete/pen/ZEpGerj" target="_blank" title="Link to source code">Gingerbread cookie</a>
+        </div>
+      </label>
+    </div>
+
+  </div>
+  <footer>
+    <div><span class="footer-info">i</span>
+      <div>Follow me on Twitter: <a href="https://twitter.com/FullStackMaker" target="_blank">@FullStackMaker</a></div>
+    </div>
+  </footer>
+</body>
+</html>
