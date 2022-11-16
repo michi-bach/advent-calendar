@@ -3,7 +3,7 @@
 @import url("https://csschristmascalendar.com/assets/freeserif/font.css");
 
 body {
-  background: url(img/christmas-935471_1920.jpg) no-repeat top center #8ac1d6;
+  background: url(img/christmas-1294090_1280.png) no-repeat top center #8ac1d6;
   background-size: cover;
   font-family: "Mountains of Christmas", cursive;
   display: flex;
@@ -40,6 +40,7 @@ body {
 /* media query */
 @media only screen and (min-width: 576px) {
   .calendar-grid {
+	margin: 3% 3vw 2rem 5vw;
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas:
       "title  title  title  day5   day17  day15"
@@ -202,8 +203,8 @@ body {
   border-radius: 0.75rem;
   background: repeating-linear-gradient(
     -45deg,
-    #f1faee 0,
-    #f1faee 0.5rem,
+    #FFC300 0,
+    #FFC300 0.5rem,
     #e63946 0.5rem,
     #e63946 1rem
   );
@@ -275,12 +276,12 @@ body {
 /* } */
 
 .calendar-grid .img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-	width: 50wh;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
 	height: auto;
 	overflow: visible;
 }
