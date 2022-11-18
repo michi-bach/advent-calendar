@@ -19,9 +19,18 @@ body {
 	font-size: 26px;
 }
 
+@media only screen and (max-width: 576px) {
+  .img {
+	text-align: left;
+	float: none;
+	width: 35vh;
+	margin: 15px 15px 7px 15px;
+	font-size: 26px;
+  }
+}
+
 .txt {
 	margin: 15px 15px 30px 15px;
 	font-size: 26px;
 	max-width: 1000px;
-
 }
