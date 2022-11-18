@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+@import url("https://csschristmascalendar.com/assets/freeserif/font.css");
+
+body {
+  background: url(../img/loewenzahn.jpg) no-repeat top right fixed #8ac1d6;
+  background-size: cover;
+  font-family: "Mountains of Christmas", cursive;
+  display: flex;
+  flex-direction: column;
+
+}
+
+img {
+	height: 60vmin;
+	margin: 15px 15px 7px 15px;
+}
+h1 {
+	font-size: 32px;
+	color: rgba(0, 0, 0, 1);
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+	text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+.txt {
+	margin: 15px 15px 30px 15px;
+	font-size: 32px;
+	max-width: 1000px;
+	color: rgba(0, 0, 0, 1);
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+	text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+
+}
