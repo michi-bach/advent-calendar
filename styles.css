@@ -15,22 +15,6 @@
 
 
 
-/* mountains-of-christmas-regular - latin */
-@font-face {
-  font-family: 'Mountains of Christmas';
-  font-style: normal;
-  font-weight: 400;
-  src: url('./fonts/mountains-of-christmas-v20-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('./fonts/mountains-of-christmas-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('./fonts/mountains-of-christmas-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('./fonts/mountains-of-christmas-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('./fonts/mountains-of-christmas-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('./fonts/mountains-of-christmas-v20-latin-regular.svg#MountainsofChristmas') format('svg'); /* Legacy iOS */
-}
-
-
-
 body {
   background: url(img/annie-spratt-zh7GEuORbUw-unsplash_crop.jpg) repeat top center #8ac1d6;
   background-size: cover;
@@ -173,7 +157,7 @@ body {
   align-items: center;
   justify-content: center;
   color: rgba(242, 240, 178, 1);
-  font-size: 4em;
+  font-size: 3em;
   font-weight: bold;
   /* text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.2); */
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
@@ -223,7 +207,7 @@ body {
   padding: 0.5rem 1rem;
   background-color: #1d3557;
   color: #f1faee;
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   white-space: nowrap;
   text-decoration: none;
 }
