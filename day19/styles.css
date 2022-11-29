@@ -22,14 +22,29 @@ body {
 }
 
 .img {
-	height: 60vmin;
+	width: 600px;
 	margin: 15px 15px 7px 15px;
 }
 
 .txt {
 	margin: 15px 15px 30px 15px;
 	font-size: 18px;
-	max-width: 1000px;
-	line-height:150%
+	width: 600px;
+	line-height:150%;
+}
 
+@media only screen and (max-width: 600px) {
+	.img {
+		width: 90vw;
+		margin: 15px 15px 7px 15px;
+	}
+	
+  .txt {
+	width: 90vw;
+	margin: 15px 15px 30px 15px;
+	font-size: 18px;
+	font-weight: normal;
+	font-family: 'Archivo';
+	line-height:150%
+	}
 }

@@ -22,8 +22,15 @@ body {
 }
 
 .img {
-	height: 60vmin;
+	width: 50vmin;
 	margin: 15px 15px 7px 15px;
+}
+
+@media only screen and (max-width: 576px) {
+  .img {
+	width: 80vmin;
+	margin: 15px 15px 7px 15px;
+  }
 }
 
 .txt {
@@ -31,5 +38,5 @@ body {
 	font-size: 18px;
 	max-width: 1000px;
 	line-height:150%
-
 }
+

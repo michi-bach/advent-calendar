@@ -22,13 +22,13 @@ body {
 }
 
 .img {
-	height: 60vmin;
+	width: 600px;
 	margin: 15px 15px 7px 15px;
 }
 
 .txt {
 	margin: 15px 15px 30px 15px;
 	font-size: 18px;
-	max-width: 1000px;
+	width: 600px;
 
 }

@@ -32,9 +32,18 @@ body {
 .img {
 	text-align: left;
 	float: left;
-	width: 35vh;
+	width: 25vw;
 	margin: 15px 15px 7px 15px;
 	font-size: 18px;
+}
+
+.txt {
+	margin: 15px 15px 30px 15px;
+	float: left;
+	width: 35vw;
+	font-size: 18px;
+	max-width: 1000px;
+	line-height:150%
 }
 
 
@@ -42,14 +51,17 @@ body {
   .img {
 	text-align: left;
 	float: none;
-	width: 35vh;
+	width: 80vw;
 	margin: 15px 15px 7px 15px;
 	font-size: 18px;
-  }
-}
-
-.txt {
+	}
+	
+  .txt {
 	margin: 15px 15px 30px 15px;
+	width: 80vw;
 	font-size: 18px;
 	max-width: 1000px;
+	line-height:150%
+	}
 }
+

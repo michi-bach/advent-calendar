@@ -21,13 +21,28 @@ body {
 }
 
 .img {
-	height: 60vmin;
+	width: 30vw;
 	margin: 15px 15px 7px 15px;
 }
 
 .txt {
+	width: 65vw;
+	margin: 15px 15px 30px 15px;
+	
+	font-size: 18px;
+	max-width: 1000px;
+}
+
+@media only screen and (max-width: 576px) {
+  .img {
+	width: 80vw;
+	margin: 15px 15px 7px 15px;
+	}
+	
+  .txt {
+	width: 80vw;
 	margin: 15px 15px 30px 15px;
 	font-size: 18px;
 	max-width: 1000px;
-
+	}
 }

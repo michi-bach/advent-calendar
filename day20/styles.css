@@ -1,3 +1,4 @@
+/* archivo-regular - latin */
 @font-face {
   font-family: 'Archivo';
   font-style: normal;
@@ -10,10 +11,8 @@
        url('../fonts/archivo-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/archivo-v18-latin-regular.svg#Archivo') format('svg'); /* Legacy iOS */
 }
-
-
 body {
-  background: url(../img/bkg_2.jpg) no-repeat top right fixed #8ac1d6;
+  background: url(../img/bkg_2.jpg) no-repeat top center #8ac1d6;
   background-size: cover;
   font-family: 'Archivo';
   display: flex;
@@ -21,23 +20,32 @@ body {
 
 }
 
-
-
-
-h1 {
-	font-size: 32px;
-	color: rgba(0, 0, 0, 1);
-	font-weight: bold;
-	font-family: 'Archivo';
-	/* text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white; */
+.img {
+	height: 60vmin;
+	margin: 15px 15px 7px 15px;
 }
+
 .txt {
+	width: 650px;
 	margin: 15px 15px 30px 15px;
 	font-size: 18px;
-	width: 570px;
-	color: rgba(0, 0, 0, 1);
 	font-weight: normal;
 	font-family: 'Archivo';
 	line-height:150%
+}
 
+@media only screen and (max-width: 650px) {
+	.img {
+		width: 90vw;
+		margin: 15px 15px 7px 15px;
+	}
+	
+  .txt {
+	width: 90vw;
+	margin: 15px 15px 30px 15px;
+	font-size: 18px;
+	font-weight: normal;
+	font-family: 'Archivo';
+	line-height:150%
+	}
 }
