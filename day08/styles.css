@@ -13,7 +13,7 @@
 
 
 body {
-  background: url(../img/bkg_2.jpg) no-repeat top center #8ac1d6;
+  background: url(../img/bkg_2.jpg) repeat top center #FFFFFF;
   background-size: cover;
   font-family: "Mountains of Christmas", cursive;
   display: flex;
